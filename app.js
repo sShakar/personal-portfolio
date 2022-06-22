@@ -1,9 +1,7 @@
-// Grab HTML Elements
-const btn = document.querySelector('button.mobile-menu');
-const menu = document.querySelector('.mobile-menu');
-
-// Add Event Listeners
-btn.addEventListener('click', () => {
+// Hamburger Menu Functionality
+let mobileMenu = document.getElementById('mobile-menu');
+let hamburgerBTN = document.querySelector('.hamburger-icon');
+hamburgerBTN.addEventListener('click', () => {
   menu.classList.toggle('hidden');
 });
 

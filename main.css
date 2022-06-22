@@ -21,3 +21,25 @@
    top: 0;
    width: 100%;
 }
+
+
+@media (max-width: 768px) {
+
+   header,
+   header.sticky {
+      padding: 20px 50px;
+   }
+
+   .menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: block;
+      padding: 100px 50px;
+      text-align: center;
+      width: 100%;
+      height: 100vh;
+      background-image: linear-gradient(to bottom, #32a9ce 0%, #330867 100%);
+      transition: 0.5s;
+   }
+}
