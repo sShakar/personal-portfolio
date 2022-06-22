@@ -1,5 +1,5 @@
 // Hamburger Menu Functionality
-let mobileMenu = document.getElementById('mobile-menu');
+const menu = document.querySelector('.mobile-menu');
 let hamburgerBTN = document.querySelector('.hamburger-icon');
 hamburgerBTN.addEventListener('click', () => {
   menu.classList.toggle('hidden');
