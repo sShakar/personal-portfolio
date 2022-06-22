@@ -1,0 +1,23 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+   scroll-behavior: smooth;
+}
+
+.bg {
+   background-repeat: no-repeat;
+   background-image: linear-gradient(to top, #32a9ce 0%, #330867 100%);
+}
+
+.home-icon {
+   font-family: 'Changa', sans-serif;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
