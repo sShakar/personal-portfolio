@@ -9,3 +9,7 @@
 - Skills
 - Contact
 - Footer
+
+---
+
+[Deployed Website](https://we-shakar.netlify.app)
