@@ -1,7 +1,7 @@
 // Hamburger Menu Functionality
-const menu = document.querySelector('.mobile-menu');
-let hamburgerBTN = document.querySelector('.hamburger-icon');
-hamburgerBTN.addEventListener('click', () => {
+const menu = document.getElementById('mobile-menu');
+let hamburgerButton = document.getElementById('hamburger-button');
+hamburgerButton.addEventListener('click', () => {
   menu.classList.toggle('hidden');
 });
 
@@ -20,3 +20,8 @@ function myFunction() {
     navbar.classList.remove('sticky');
   }
 }
+
+// Toggle Navbar on Click
+const hamburgerIcon = document.querySelector('.hamburger-icon');
+
+hamburgerIcon.addEventListener('click', () => {});
