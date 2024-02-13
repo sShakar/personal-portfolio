@@ -1,6 +1,4 @@
-# WeCode
-
-## Personal Portfolio
+# Personal Portfolio
 
 **Website Contents**
 
