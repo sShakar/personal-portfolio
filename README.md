@@ -12,4 +12,4 @@
 
 ---
 
-[Deployed Website](https://we-shakar.netlify.app)
+[Deployed Website](https://shakar.dev)
